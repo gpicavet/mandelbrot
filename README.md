@@ -2,6 +2,8 @@
 
 Benchmark Mandelbrot set in full HD resolution.
 
+<img src="mandelbrot.png" width="256">
+
 ## tests :
 - js (simple) : vanilla js with main thread rendering to canvas
 - js and workers : js and service workers. default to 8 concurrent workers (best with 8 core cpus). Rendering is done by dispatching lines of screen across workers
