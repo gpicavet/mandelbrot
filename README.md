@@ -24,4 +24,4 @@ Using Laptop with i7-8650U CPU@ 1.9Ghz
 |---|---|---|---|
 |js (simple)|510 ms|510 ms|520 ms|
 |js and workers single |100 ms|110 ms|120 ms|
-|js and workers 10 frames (Shared Buffer is reused) |45 ms|52 ms|60 ms|
+|js and workers mean 10 frames (Shared Buffer is reused) |45 ms|52 ms|60 ms|
