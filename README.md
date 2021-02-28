@@ -19,7 +19,7 @@ start a local web server (because service worker)
 
 Using Laptop with i7-8650U CPU@ 1.9Ghz
 
-|test| compute time pre frame (ms) |
-|---|---|
-|js (simple)|500|
-|js and workers|50|
+|test| compute time (Chrome 88.0.4324.190) | compute time (Brave 1.20.110) | compute time (Firefox) |
+|---|---|---|---|
+|js (simple)|510 ms|510 ms|520 ms|
+|js and workers|45 ms|52 ms|60 ms|
